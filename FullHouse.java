@@ -55,12 +55,8 @@ public class FullHouse extends Hand{
 				{
 					if (getCard(2).getRank()==getCard(3).getRank() && getCard(3).getRank()==getCard(4).getRank())
 						return true;
-					else
-						return false;
 				}
-				else
-					return false;
-					
+
 			}
 			else if (getCard(2).getRank() != getCard(3).getRank())
 			{
@@ -68,18 +64,10 @@ public class FullHouse extends Hand{
 				{
 					if (getCard(0).getRank()==getCard(1).getRank() && getCard(1).getRank()==getCard(2).getRank())
 						return true;
-					else
-						return false;
 				}
-				else
-					return false;
 			}
-			else
-				return false;
-	
 		}
 		return false;
-		
 	}
 	
 	
